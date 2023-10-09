@@ -1,11 +1,56 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    font-family: 'Merriweather', serif;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
 }
-h1{
-    
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
 }
-nav a{
-    color: black;
-    padding-left: 10px;
+.menu{
+    float: right;
+}
+nav{
+    display: flex;
+    line-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    color:black;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+img{
+    height: 350px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.text-container{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.text-container p:nth-child(1){
+    font-size: 50px;
+    font-weight: bold;
 }
