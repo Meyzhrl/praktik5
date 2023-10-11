@@ -195,3 +195,68 @@ h3{
 .action p:nth-child(2){
     margin-top: 10px;
     color: gray;
+}
+.login-box{
+    position: absolute;
+    top: 320%;
+    float:left;
+    width: 300px;
+    height: 300px;
+    padding:40px;
+    border: 3px solid turquoise;
+}
+.login-box h2{
+    margin-left: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+.login-box .user-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.login-box .user-box input{
+    border-style: none;
+    border-bottom: 1px solid black;
+    height: 20px;
+    width: 50%;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.login-box .user-box label{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.user-box button{
+    background: turquoise;
+    color: white;
+}
+.location{
+    float: right;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.content{
+    background-color: turquoise;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    position: relative;
+    height: 300px;
+    width: auto;
+    display: flex;
+    margin-top: 600px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+.logo-details p:nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.logo-details p:nth-child(2){
+    margin-top: 10px;
+    color: white;
+}
+
